@@ -6,20 +6,34 @@
 
 </head>
 <body>
-    <h1>Hello World</h1>
+<h1>Hello World</h1>
 
-    <p>Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit. Blanditiis consectetur cum dolor eum explicabo laborum magnam, obcaecati similique ut! Adipisci at blanditiis culpa facere labore, saepe! Aliquid architecto quaerat ullam!</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consectetur cum dolor eum explicabo laborum magnam, obcaecati similique ut! Adipisci at blanditiis culpa facere labore, saepe! Aliquid architecto quaerat ullam!</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consectetur cum dolor eum explicabo laborum magnam, obcaecati similique ut! Adipisci at blanditiis culpa facere labore, saepe! Aliquid architecto quaerat ullam!</p>
+<p>Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipisicing elit. Blanditiis consectetur cum dolor eum explicabo laborum magnam, obcaecati similique ut! Adipisci at blanditiis culpa facere labore, saepe! Aliquid architecto quaerat ullam!</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consectetur cum dolor eum explicabo laborum magnam, obcaecati similique ut! Adipisci at blanditiis culpa facere labore, saepe! Aliquid architecto quaerat ullam!</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consectetur cum dolor eum explicabo laborum magnam, obcaecati similique ut! Adipisci at blanditiis culpa facere labore, saepe! Aliquid architecto quaerat ullam!</p>
 
+<p>
     <input type="number" id="inputNumber" />
     <button type="button" id="alertButton">Alert</button>
+</p>
 
+<p>
+    <input type="text" id="inputTextList" />
+    <button type="button" id="listButton">Ajouter à la liste</button>
+    <ul id="htmlList">
+    </ul>
+</p>
+
+<p>
     <input type="text" id="inputText" />
-    <button type="button" id="paragrapheButton">Ajouter au paragraphe</button>
-    <p id="paragrapheDynamique" ></p>
+    <button type="button" id="paragrapheButton"
+            onmouseover="setParagrapheButtonBlue()"
+            onmouseout="setParagrapheButtonGreen()">Ajouter au paragraphe</button>
 
-    <!-- Scripts -->
-    <script src="main.js"></script>
+    <p id="paragrapheDynamique" />
+</p>
+
+<!-- Scripts -->
+<script src="main.js"></script>
 </body>
 </html>
